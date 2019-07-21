@@ -25,6 +25,7 @@
 		5858440D22E4A2CC009CCBD7 /* 24_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858440B22E4A2CC009CCBD7 /* 24_setting.png */; };
 		5858440E22E4A2CC009CCBD7 /* 24_setting_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858440C22E4A2CC009CCBD7 /* 24_setting_1.png */; };
 		5858441022E4AE38009CCBD7 /* 24_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 5858440F22E4AE38009CCBD7 /* 24_list.png */; };
+		5858441322E4BAD9009CCBD7 /* DataQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5858441222E4BAD9009CCBD7 /* DataQuotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5858440B22E4A2CC009CCBD7 /* 24_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24_setting.png; sourceTree = "<group>"; };
 		5858440C22E4A2CC009CCBD7 /* 24_setting_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24_setting_1.png; sourceTree = "<group>"; };
 		5858440F22E4AE38009CCBD7 /* 24_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24_list.png; sourceTree = "<group>"; };
+		5858441222E4BAD9009CCBD7 /* DataQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQuotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		585011CC22E303F40074E90E /* EncourageHappy */ = {
 			isa = PBXGroup;
 			children = (
+				5858441122E4BA92009CCBD7 /* DataHelper */,
 				5858440A22E4A2B0009CCBD7 /* Icons */,
 				5812B95F22E4853600FE5793 /* Images */,
 				585011CD22E303F40074E90E /* AppDelegate.swift */,
@@ -117,6 +120,14 @@
 				5858440B22E4A2CC009CCBD7 /* 24_setting.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		5858441122E4BA92009CCBD7 /* DataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				5858441222E4BAD9009CCBD7 /* DataQuotes.swift */,
+			);
+			path = DataHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 			files = (
 				5812B97322E494B400FE5793 /* CategoriesController.swift in Sources */,
 				585011D022E303F40074E90E /* ViewController.swift in Sources */,
+				5858441322E4BAD9009CCBD7 /* DataQuotes.swift in Sources */,
 				585011CE22E303F40074E90E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matkinhig.EncourageHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -377,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = matkinhig.EncourageHappy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

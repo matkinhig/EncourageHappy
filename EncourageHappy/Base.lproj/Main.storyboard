@@ -86,7 +86,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37T-WL-sGC">
                                 <rect key="frame" x="134" y="97" width="107" height="37"/>
-                                <state key="normal" title="Action"/>
+                                <state key="normal" title="Random"/>
                                 <connections>
                                     <action selector="btnAction:" destination="UHp-Ie-QAW" eventType="touchUpInside" id="hBi-14-YEO"/>
                                 </connections>

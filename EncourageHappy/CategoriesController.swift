@@ -19,7 +19,7 @@ class CategoriesController : UIViewController{
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SegueBackToQuote" {
             let destinationViewController = segue.destination as! ViewController
-            destinationViewController.quoteType = 0
+            destinationViewController.quoteType = type
         }
     }
 }
