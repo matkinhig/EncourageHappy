@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         let yeucau = UNNotificationRequest(identifier: "testrequire", content: content, trigger: laplai)
         
         UNUserNotificationCenter.current().add(yeucau, withCompletionHandler: nil)
-        
+        showQuote()
         
         _ = Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: { timer in
             self.showQuote()
@@ -48,7 +48,6 @@ class ViewController: UIViewController {
     
     func showQuote() {
         selectedIndex = generate(upper: DataQuotes.countQuote(type: quoteType))
-        print(DataQuotes.countQuote(type: quoteType))
         let dataQuote = DataQuotes.getQuotes(type: quoteType
             , index: selectedIndex )
         let dataAuthor = DataQuotes.getAuthors(index: selectedIndex)
